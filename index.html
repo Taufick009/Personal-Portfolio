@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Taufick Hossain | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+  })();
+</script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h2>Personal<span class="text-warning">Portfolio</span></h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities">Extra-Curricular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="cv 2.jpg" alt="Profile Picture" class="profile-img rounded-circle img-fluid">
+                </div>
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold mb-3">Md Taufick Hossain</h1>
+                    <h2 class="mb-4">Aspiring Front-end Developer & ML Enthusiast</h2>
+                    <p class="lead mb-4">Building beautiful, responsive websites and exploring the world of machine
+                        learning.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#contact" class="btn btn-primary btn-lg me-3">Contact Me</a>
+                        <a href="#projects" class="btn btn-outline-primary btn-lg">View Projects</a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="https://via.placeholder.com/400" alt="Profile Picture" class="profile-img rounded-circle">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Introduction</h3>
+                    <p>I'm a final-year undergraduate Computer Science student and a passionate technology enthusiast
+                        with a strong interest in front-end development and machine learning. I continuously strive to
+                        expand my skill set and apply my knowledge to build innovative and impactful solutions.</p>
+                    <div class="col-lg-6">
+                        <h3>My Approach</h3>
+                        <p>I believe in clean, efficient code and user-centered design. My development process focuses
+                            on
+                            creating responsive, accessible, and performant web applications that provide seamless user
+                            experiences.</p>
+                        <p>Currently learning ML and DS for future innovations.</p>
+                        <div class="mt-4">
+                            <a href="" class="btn btn-primary me-2"><i class="fas fa-download me-2"></i>Download CV</a>
+                            <a href="#contact" class="btn btn-outline-primary">Hire Me</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title text-center">My Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-code me-2"></i>Programming Languages</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> JavaScript</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Python</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Java</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> HTML/CSS</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4><i class="fas fa-database me-2"></i>Database</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> MySQL</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools me-2"></i>Developer Tools</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Git & GitHub</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> VS Code</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Jupyter Notebook</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Google Collab</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4><i class="fas fa-layer-group me-2"></i>Frameworks & Libraries</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Bootstrap</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Numpy</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Pandas</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Matplotlib</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Seaborn</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Scikit Learn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="blinkit img.png"
+                            class="card-img-top w-25" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blinkit Clone</h5>
+                            <p class="card-text">A fully responsive groceries websites using HTML,CSS,JS & Bootstrap</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-sm btn-primary">LIVE</a>
+                                <small class="text-muted">HTML,CSS,JS</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="Rock Paper Scissors.jpg"
+                            class="card-img-top w-25" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock Paper Scissors</h5>
+                            <p class="card-text">A fun and interactive Rock Paper Scissors game built using HTML, CSS,
+                                and JavaScript. Challenge the computer and see if you can win!</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://livedemo07.netlify.app/" class="btn btn-sm btn-primary">LIVE</a>
+                                <small class="text-muted">HTML,CSS,JS</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="peronal porfolio logo.png" class="card-img-top w-25" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">A responsive personal portfolio website showcasing projects skills and
+                                achievements with smooth animations and transitions.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-sm btn-primary">LIVE</a>
+                                <small class="text-muted">HTML, CSS, JavaScript,Bootstrap</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card project-card">
+                        <img src="Movie-Rating Analysis.jpg"
+                            class="card-img-top w-25" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Capstone Project – Movie Rating Analysis</h5>
+                            <p class="card-text">Performed data visualization on movie ratings across platforms to
+                                highlight rating discrepancies, revealing potential bias and inflated scores on
+                                Fandango.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://github.com/Taufick009/Movie-Rating-Analysis"
+                                    class="btn btn-sm btn-primary">CHECK OUT </a>
+                                <small class="text-muted">Python, Pandas,Numpy, Matplotlib, Seaborn, Web Scraping
+                                    (BeautifulSoup), Jupyter Notebook</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title text-center">My Achievements</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="achievement-item">
+                        <h4>NPTEL Silver Medalist</h4>
+                        <p class="text-muted">2025 | NPTEL(Januray-April) session</p>
+                        <p>Sucessfully completed the 12 week IIT(KGP) Soft Computing course with a score of 83/100 and a
+                            silver + elite certificate.Over 12 enriching weeks,i explored key concepts such as Fuzzy
+                            Logic and Genetic Algorithms</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="achievement-item">
+                        <h4>Deloitte Australia Job Simulation</h4>
+                        <p class="text-muted">2025 | Virtual Job Simulation July</p>
+                        <p>Completed deloitte job simulation on Data Analysis.In the simulation I:
+                            *Created a data dashboard using Tableau
+                            *Used Excel to classify data and draw business conclusions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra-Curricular Activities Section -->
+    <section id="activities" class="bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Extra-Curricular Activities</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="activity-item">
+                        <h4>Marketing</h4>
+                        <p class="text-muted">2023-2024 | College Marketing Group</p>
+                        <p>Member of the marketing group of college cultural fest EUPHONIOUSxZYZZVA for consecutive
+                            2years.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="activity-item">
+                        <h4>Volunteer & Participation</h4>
+                        <p class="text-muted">2022-2023 | College Events</p>
+                        <p>Volunteer and Participated in the collage events and sports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://github.com/Taufick009"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/md-taufick-hossain-a55063254/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/taufick_009?igsh=aXI5OG1nNG4yOHRp"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1G71bNFHJ5/"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>&copy; 2025 Md Taufick Hossain. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    Custom JS
+    <script>
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scrolling for navbar links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            // Here you would typically send the data to a server
+            // For now, we'll just log it and show an alert
+            console.log({ name, email, subject, message });
+
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = '#2c3e50';
+                navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.backgroundColor = '#2c3e50';
+                navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            }
+        });
+    </script>
+</body>
+
+</html>
