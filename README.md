@@ -3,7 +3,7 @@
 This is a responsive personal portfolio website built using **HTML, CSS, JavaScript, and Bootstrap**. It showcases key information about me as a Computer Science student and aspiring front-end developer.
 
 ## 🔗 Live Demo
-[View Live Portfolio](https://your-deployment-link.com)
+[View Live Portfolio](https://taufickportfolio.netlify.app/)
 
 ## 📌 Features
 - Responsive design for all screen sizes
